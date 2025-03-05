@@ -1,0 +1,23 @@
+.menu-bar ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap; /* Cho phép xuống dòng khi không đủ chỗ */
+    gap: 10px;
+    padding: 0;
+  }
+  
+  .menu-bar li {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .menu-bar img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  

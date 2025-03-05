@@ -1,0 +1,26 @@
+.menu-bar {
+    padding: 10px;
+    width: 100%;
+    background-color: white;
+
+  }
+  
+  .menu-bar ul {
+    list-style: none;
+    padding: 0;
+    margin-left: 0;
+    display: flex; 
+}
+  
+  .menu-bar li {
+    padding: 10px 15px;
+    margin: 0 5px;
+    border-radius: 5px;
+    color: gray;
+    cursor: pointer;
+  }
+  
+  .menu-bar li:hover {
+    background-color: #bbb;
+  }
+  
