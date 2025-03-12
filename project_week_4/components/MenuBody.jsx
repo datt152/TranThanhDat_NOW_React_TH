@@ -14,10 +14,13 @@ useEffect(() => {
 return (
     <div className="menu-bar">
       <ul>
-        {data.map((item, index) => (
-          <Card key={index} value={item} />
-          
-        ))}
+        {data.map((item) => {
+          return (
+            
+            <Card key={item.idMeal} value={item} />
+
+          );
+        })}
       </ul>
     </div>
   );

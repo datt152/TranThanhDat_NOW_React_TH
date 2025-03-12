@@ -1,5 +1,6 @@
 
 import "../components/card-style.css";
+import PropTypes from 'prop-types';
 
 const Card = ({ value }) => {
 
@@ -20,5 +21,13 @@ const Card = ({ value }) => {
         </div>
     );
 };
+Card.propTypes = {
+    value: PropTypes.shape({
+        strMealThumb: PropTypes.string.isRequired,
+        strMeal: PropTypes.string.isRequired,
+        idMeal: PropTypes.string.isRequired,
+    }).isRequired,
+};
 
 export default Card;
+

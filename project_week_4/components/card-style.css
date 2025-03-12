@@ -1,11 +1,13 @@
 .card {
     width: 260px;
+    height: 150px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     border: 1px solid #eee;
     background: white;
     font-family: Arial, sans-serif;
+    margin: 10px;
   }
   
   .card-image {
@@ -15,20 +17,20 @@
   }
   
   .card-content {
-    padding: 10px;
+    padding: 5px;
   }
   
   .card-title {
-    font-size: 16px;
+    font-size: 10px;
     font-weight: bold;
-    margin: 5px 0;
+    text-align: center;
   }
   
   .card-footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 8px;
+
   }
   
   .time-label {
