@@ -1,0 +1,125 @@
+#content {
+    display: flex;
+    gap: 20px;
+}
+
+/* h2 {
+    width: 100%;
+    margin-top: 50px;
+    
+}
+h4{
+    margin-bottom: 25px;
+    margin-top: 8px;
+    margin-left: 5px;
+} */
+
+/* p {
+    /* Canh chu ngay hang voi nhau theo chieu ngang doc 
+    text-align: justify;
+} */
+
+/* #right {
+    gap: 10px;
+} */
+
+/* button {
+    background-color: #FF4081
+} */
+
+ /* #share {
+     background-color: #FF4081;
+    
+}  */
+
+/* #left img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+
+} */
+
+#main {
+    flex-direction: column;
+    /* Sắp xếp theo chiều dọc */
+    gap: 40px;
+    width: 90%;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+
+/* #recipe-list{
+    margin-left: 100px;
+    
+} */
+
+/* #menu-item ul {
+    padding: 0;
+    display: flex;
+} */
+
+/* #menu-item ul li {
+    list-style-type: none;
+    margin-right: 20px;
+} */
+
+/* #recipe-list img {
+    width: 200px;
+    height: 130px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+} */
+
+/* #recipe-list ul li {
+    list-style-type: none;
+    margin-right: 10px;
+} */
+
+/* #recipe-list ul {
+    /* display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    /* Để các phần tử không bị tràn ra ngoài */
+    /* list-style-type: none; */
+    /* Bỏ dấu chấm đầu dòng */
+    /* padding: 0; */
+    /* Bỏ padding 
+    margin: 0; 
+} */
+/* .recipe-grid{
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid #ccc3c6;
+} */
+
+/* .recipe-grid button{
+    
+    background-color: rgb(246, 230, 237);
+    padding: 2px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+} */
+
+/* #menu-food{
+   
+} */
+/* #menu-food ul{
+    display: flex;
+    border-bottom: 1px solid #ccc3c6;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding: 0;
+}
+
+#menu-food ul li{
+    padding: 10px;
+    list-style-type: none;
+    margin-right: 2px;
+
+    border-radius: 4px;
+} */
+
+#color{
+    color: #FF4081;
+    background-color: #f7cedb;
+}

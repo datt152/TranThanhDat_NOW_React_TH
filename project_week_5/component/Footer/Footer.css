@@ -1,0 +1,70 @@
+.footer {
+    background-color: #1a1a1a;
+    display: flex;
+    color: white;
+    padding: 40px 30px;
+}
+
+
+.learn,
+.recipes {
+    flex: 1;
+    padding: 0;
+}
+
+.footer-content {
+    flex: 3;
+}
+
+.footer-content {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+footer ul li {
+    list-style-type: none;
+
+}
+
+footer input {
+    padding: 10px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+footer ul {
+    padding: 0;
+}
+
+footer ul li {
+    margin-bottom: 15px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: rgb(181, 175, 175);
+    
+}
+
+.email-subscription button {
+    padding: 10px 20px;
+    background-color: #FF4081;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#h3 {
+    margin-top: 40px;
+}
+
+.footer-bottom {
+    margin-top: 100px;
+    margin-left: 0;
+    display: flex;
+}
