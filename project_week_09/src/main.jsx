@@ -4,12 +4,13 @@ import './index.css'
 import App from './App.jsx'
 import CounterApp from './components/counter_app.jsx'
 import TodoApp from './components/todo_app.jsx'
-
+import ThemeApp from './components/theme_app.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     {/* <App /> */}
-    <CounterApp/>
+    {/* <CounterApp/> */}
     {/* <TodoApp/> */}
+    <ThemeApp/>
 
   </StrictMode>,
 )
