@@ -8,8 +8,8 @@ import TodoApp from './components/todo_app.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     {/* <App /> */}
-    {/* <CounterApp/>*/}
-    <TodoApp/>
-    
+    <CounterApp/>
+    {/* <TodoApp/> */}
+
   </StrictMode>,
 )
